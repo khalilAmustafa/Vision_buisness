@@ -1,0 +1,51 @@
+Vision_buisness-main/
+│
+├── core/
+│   ├── database.py
+│   ├── session_tracker.py
+│   ├── create_default_users.py
+│   │
+│   ├── models/
+│   │   ├── user.py
+│   │   ├── shift.py
+│   │   ├── focus_log.py
+│   │   ├── activity_log.py
+│   │   └── daily_summary.py
+│   │
+│   ├── services/
+│   │   ├── auth_service.py
+│   │   ├── user_service.py
+│   │   ├── shift_service.py
+│   │   └── summary_service.py
+│   │
+│   └── utils/
+│       └── validators.py
+│
+├── monitoring/
+│   ├── i_monitor.py
+│   ├── i_focus_detector.py
+│   ├── i_activity_classifier.py
+│   ├── shift_tracker.py
+│   ├── camera_monitor.py
+│   ├── pc_activity_monitor.py
+│   ├── base_productivity_calculator.py
+│   └── productivity_calculator.py
+│
+├── manager/
+│   ├── base_dashboard_controller.py
+│   ├── base_report_controller.py
+│   └── report_controller.py
+│
+├── ui/
+│   ├── main.py
+│   ├── employee_dashboard.py
+│   ├── theme.py
+│   └── widgets/
+│       ├── __init__.py
+│       ├── shift_widget.py
+│       ├── focus_widget.py
+│       ├── activity_widget.py
+│       └── productivity_widget.py
+│
+├── vision.db
+└── requirements.txt

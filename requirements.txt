@@ -1,0 +1,29 @@
+PyQt5==5.15.11
+PyQtChart==5.15.6
+opencv-python==4.10.0.84
+psutil==6.0.0
+
+
+#12. How to Run the Project
+#--------------------------------------------------
+
+# 1) Create a virtual environment
+#python -m venv .venv
+
+# 2) Activate the virtual environment
+# Windows:
+#     .venv\Scripts\activate
+# Linux/Mac:
+#source .venv/bin/activate
+
+# 3) Install required libraries
+#pip install -r requirements.txt
+
+# 4) Launch the application
+#python -m ui.main
+
+
+# Notes:
+# - Make sure a webcam is connected for camera monitoring.
+# - The SQLite database will be created automatically on first run.
+# - Run using Python 3.10+ for full compatibility.
